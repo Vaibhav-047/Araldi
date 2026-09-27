@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARALDI AUTOMOBILI — Modena | L'Arte della Meccanica Pura</title>
+  <meta name="description" content="Araldi Automobili. Ultra-exclusive bespoke hypercars on par with Pagani. Naturally aspirated V12, Carbo-Titanium HP62, exposed gated manual mechanics, handcrafted in Modena, Italy.">
+  
+  <!-- Google Fonts: Cinzel & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/crest.svg">
+</head>
+<body class="bright-theme">
+
+  <!-- TOP ATELIER DISPATCH BAR -->
+  <aside class="atelier-topbar">
+    <div class="topbar-inner">
+      <div class="topbar-item">
+        <span class="pulse-indicator"></span>
+        <span>MODENA ATELIER STATUS:</span>
+        <strong id="liveAllocationStatus">SERIES II · 22/30 COMMISSIONS ALLOCATED</strong>
+      </div>
+      <div class="topbar-divider"></div>
+      <div class="topbar-item">
+        <span>FACTORY ATELIER HOURS:</span>
+        <span class="mono-badge">08:00 – 19:00 CET · MODENA</span>
+      </div>
+      <div class="topbar-divider"></div>
+      <div class="topbar-item">
+        <span class="metal-pill" style="font-size:0.62rem; padding:0.25rem 0.7rem; border:1px solid rgba(197,160,89,0.35); border-radius:20px; color:#E8D39E; letter-spacing:0.12em;">
+          ACOUSTIC SPEC: 9,600 RPM INCONEL D-MINOR HARMONICS
+        </span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- NAVIGATION -->
+  <header class="atelier-nav-header" id="siteHeader">
+    <div class="nav-container">
+      <a href="#hero" class="brand-crest-link">
+        <img src="assets/crest.svg" alt="Araldi Automobili Crest" class="nav-crest-img">
+        <div class="brand-nameplate">
+          <span class="brand-main">ARALDI</span>
+          <span class="brand-sub">AUTOMOBILI · MODENA</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="#manifesto" class="nav-link">ETHOS & ARTE</a>
+        <a href="#fleet" class="nav-link">THE FLEET</a>
+        <a href="#telemetry" class="nav-link">TELEMETRY</a>
+        <a href="#gallery" class="nav-link">GALLERY</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#inquiry" class="btn btn-luxury-gold">REQUEST ALLOCATION</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-wrapper">
+        <img 
+          src="assets/caelum-front-white.jpg" 
+          alt="Araldi SP-12 Caelum Hypercar in Carrara White at Lake Como" 
+          class="hero-bg-photo" 
+          onerror="this.src='assets/caelum-hero.svg'"
+          fetchpriority="high"
+        >
+        <div class="hero-gradient-overlay"></div>
+      </div>
+
+      <div class="hero-content-container">
+        <div class="hero-meta-badge">
+          <span class="metal-pill">SAN CESARIO SUL PANARO · MODENA</span>
+          <span class="dot-sep"></span>
+          <span class="gold-pill">1 OF 30 WORLD ALLOCATION</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="hero-title-sub">THE ART OF PURE MECHANICS</span>
+          <span class="hero-title-main">ARALDI SP-12 CAELUM</span>
+        </h1>
+
+        <p class="hero-lead">
+          Conceived in the cradle of Italian coachbuilding. A symphony of naturally aspirated V12 harmonics, 
+          Carbo-Titanium metallurgy, and an exposed 6-speed gated manual shifter carved from solid Avional billets.
+          No electric batteries. No digital screens. Pure mechanical kinetic art.
+        </p>
+
+        <!-- Quick Telemetry Specs Bar -->
+        <div class="hero-telemetry-cluster">
+          <div class="telemetry-item">
+            <span class="telemetry-value">890 <small>HP</small></span>
+            <span class="telemetry-label">6.2L 60° NA V12</span>
+          </div>
+          <div class="telemetry-divider"></div>
+          <div class="telemetry-item">
+            <span class="telemetry-value">9,600 <small>RPM</small></span>
+            <span class="telemetry-label">ATMOSPHERIC REDLINE</span>
+          </div>
+          <div class="telemetry-divider"></div>
+          <div class="telemetry-item">
+            <span class="telemetry-value">1,180 <small>KG</small></span>
+            <span class="telemetry-label">DRY MASS (HP62 TITANIUM)</span>
+          </div>
+          <div class="telemetry-divider"></div>
+          <div class="telemetry-item">
+            <span class="telemetry-value">6-SPEED</span>
+            <span class="telemetry-label">EXPOSED GATED MANUAL</span>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#fleet" class="btn btn-luxury-dark">EXPLORE THE FLEET</a>
+          <a href="#inquiry" class="btn btn-luxury-outline">PETITION FOR ALLOCATION</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-cue">
+        <a href="#manifesto" aria-label="Scroll down to brand manifesto">
+          <span class="scroll-text">DISCOVER THE CRAFT</span>
+          <span class="scroll-arrow">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- BRAND MANIFESTO & "ARTE E SCIENZA" -->
+    <section class="manifesto-section" id="manifesto">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="sub-label">THE HORACIO PAGANI & LEONARDO TRADITION</span>
+          <h2 class="section-title">Arte e Scienza Walking as One</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="manifesto-grid">
+          <div class="manifesto-quote-card">
+            <blockquote class="lead-quote">
+              “A supercar can record a blistering lap time, but an Araldi must make the heart race while parked under the bright sun at Villa d'Este. Every bolt is a sculpture; every gear change is a mechanical opera.”
+            </blockquote>
+            <div class="quote-signature">
+              <span class="author-name">Enzo Araldi</span>
+              <span class="author-role">Founder & Chief Designer · San Cesario sul Panaro</span>
+            </div>
+          </div>
+
+          <div class="manifesto-pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#C5A059" stroke-width="1.8">
+                  <circle cx="12" cy="12" r="9"/>
+                  <path d="M12 3v18M3 12h18"/>
+                  <circle cx="12" cy="12" r="3" fill="#C5A059"/>
+                </svg>
+              </div>
+              <h3 class="pillar-title">1,400+ Grade-5 Titanium Fasteners</h3>
+              <p class="pillar-desc">
+                Every single bolt, nut, and washer across the chassis is individually CNC-milled from titanium alloy, mirror-polished by hand, and laser-etched with the Araldi heraldic crest. No standard catalogue fasteners exist within an Araldi.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#C5A059" stroke-width="1.8">
+                  <path d="M4 4l16 16M4 20L20 4M2 12h20M12 2v20"/>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Carbo-Titanium HP62 Weave</h3>
+              <p class="pillar-desc">
+                By interweaving continuous Grade-5 titanium filaments directly into aeronautical carbon fibers, the monocoque achieves unprecedented impact toughness and a torsional rigidity of 58,000 Nm/degree without shattering.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#C5A059" stroke-width="1.8">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Swiss Horological Cockpit</h3>
+              <p class="pillar-desc">
+                We reject planned obsolescence. Zero capacitive screens or plastic touchpads. The instrument binnacles are genuine Swiss-crafted mechanical chronometers with sapphire crystal faces and illuminated mechanical ruby bearings.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#C5A059" stroke-width="1.8">
+                  <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Symmetrical Carbon Spine</h3>
+              <p class="pillar-desc">
+                The carbon-fiber weave along the vehicle’s central centerline aligns with a tolerance of 0.5 millimeters from the nose splitter to the rear diffuser, creating an unbroken chevron tapestry of composite craftsmanship.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE FLEET (FLAGSHIP HYPERCARS) -->
+    <section class="fleet-section" id="fleet">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="sub-label">THE ATELIER PORTFOLIO</span>
+          <h2 class="section-title">Kinetic Masterpieces in Small Series</h2>
+          <p class="section-subtitle">Strictly limited productions crafted individually at our Modena workshop.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="fleet-grid">
+          <!-- MODEL 1: CAELUM V12 -->
+          <article class="car-card">
+            <div class="car-image-container">
+              <img 
+                src="assets/caelum-gullwing.jpg" 
+                alt="Araldi SP-12 Caelum Flagship Coupe with Gullwing Doors" 
+                class="car-photo" 
+                onerror="this.src='assets/caelum-hero.svg'"
+              >
+              <div class="car-badge-overlay">SERIES ALLOCATION: 1 OF 30</div>
+            </div>
+            <div class="car-details">
+              <div class="car-header-row">
+                <div>
+                  <span class="car-category">FLAGSHIP COUPE</span>
+                  <h3 class="car-title">ARALDI SP-12 CAELUM</h3>
+                </div>
+                <div class="car-price-est">From €3,850,000</div>
+              </div>
+              <p class="car-summary">
+                The definitive expression of purist hypercar engineering. Gullwing doors, 4 active aerodynamic flaps, 
+                and a naturally aspirated 6.2L V12 singing to 9,600 RPM through our signature quad-barrel Inconel organ.
+              </p>
+              
+              <div class="car-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">POWER</span>
+                  <span class="spec-val">890 HP @ 9,400 RPM</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">TORQUE</span>
+                  <span class="spec-val">780 Nm @ 6,800 RPM</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">TRANSMISSION</span>
+                  <span class="spec-val">6-Speed Gated Manual</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">DRY MASS</span>
+                  <span class="spec-val">1,180 kg</span>
+                </div>
+              </div>
+
+              <div class="car-action-row">
+                <a href="#inquiry" class="btn btn-luxury-dark">INQUIRE ABOUT CHASSIS</a>
+                <a href="#telemetry" class="car-link-more">Compare Telemetry →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- MODEL 2: VELOCITÀ CODALUNGA -->
+          <article class="car-card">
+            <div class="car-image-container">
+              <img 
+                src="assets/codalunga-hypercar.jpg" 
+                alt="Araldi Velocità Codalunga Longtail GT" 
+                class="car-photo" 
+                onerror="this.src='assets/codalunga.svg'"
+              >
+              <div class="car-badge-overlay special-gold">SPECIAL COACHBUILD: 1 OF 5</div>
+            </div>
+            <div class="car-details">
+              <div class="car-header-row">
+                <div>
+                  <span class="car-category">STREAMLINED LONGTAIL</span>
+                  <h3 class="car-title">VELOCITÀ CODALUNGA</h3>
+                </div>
+                <div class="car-price-est">From €7,200,000</div>
+              </div>
+              <p class="car-summary">
+                A bespoke aerodynamic homage to 1960s Italian endurance racers. Featuring an elongated rear rear-deck 
+                crafted from a single sheet of hand-beaten aluminum and raw carbo-titanium, delivering low-drag elegance.
+              </p>
+              
+              <div class="car-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">POWER</span>
+                  <span class="spec-val">905 HP @ 9,600 RPM</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">MAX SPEED</span>
+                  <span class="spec-val">&gt; 385 km/h</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">COACHBUILD</span>
+                  <span class="spec-val">Extended Teardrop Tail</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">CABIN</span>
+                  <span class="spec-val">Vintage Saddle Leather</span>
+                </div>
+              </div>
+
+              <div class="car-action-row">
+                <a href="#inquiry" class="btn btn-luxury-dark">INQUIRE ABOUT CHASSIS</a>
+                <a href="#telemetry" class="car-link-more">Compare Telemetry →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- MODEL 3: SOLARIA BARCHETTA -->
+          <article class="car-card">
+            <div class="car-image-container">
+              <img 
+                src="assets/solaria-barchetta.jpg" 
+                alt="Araldi Solaria Barchetta Open Speedster" 
+                class="car-photo" 
+                onerror="this.src='assets/solaria.svg'"
+              >
+              <div class="car-badge-overlay">OPEN SPEEDSTER: 1 OF 15</div>
+            </div>
+            <div class="car-details">
+              <div class="car-header-row">
+                <div>
+                  <span class="car-category">PURE VISCERAL SPEEDSTER</span>
+                  <h3 class="car-title">SOLARIA BARCHETTA</h3>
+                </div>
+                <div class="car-price-est">From €4,600,000</div>
+              </div>
+              <p class="car-summary">
+                Roofless, raw, and unfiltered. Designed with integrated Grade-5 titanium halo roll structures, 
+                streamlined aerodynamic helmet cowls, and direct intake velocity stacks roaring inches behind the driver's ears.
+              </p>
+              
+              <div class="car-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">POWER</span>
+                  <span class="spec-val">890 HP @ 9,400 RPM</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">MASS</span>
+                  <span class="spec-val">1,090 kg (Ultra-Light)</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">0-100 KM/H</span>
+                  <span class="spec-val">2.7 Seconds</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">AERO</span>
+                  <span class="spec-val">Titanium Aero Cowls</span>
+                </div>
+              </div>
+
+              <div class="car-action-row">
+                <a href="#inquiry" class="btn btn-luxury-dark">INQUIRE ABOUT CHASSIS</a>
+                <a href="#telemetry" class="car-link-more">Compare Telemetry →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TELEMETRY & SPECIFICATION BENCHMARK TABLE -->
+    <section class="telemetry-section" id="telemetry">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="sub-label">MECHANICAL MATRIX</span>
+          <h2 class="section-title">Comparative Telemetry</h2>
+          <p class="section-subtitle">Examine the technical parameters across our three handcrafted series.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="telemetry-table-wrapper">
+          <table class="telemetry-table">
+            <thead>
+              <tr>
+                <th scope="col" class="param-col">SPECIFICATION PARAMETER</th>
+                <th scope="col" class="highlight-col">ARALDI SP-12 CAELUM (COUPE)</th>
+                <th scope="col">VELOCITÀ CODALUNGA (LONGTAIL)</th>
+                <th scope="col">SOLARIA BARCHETTA (SPEEDSTER)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="param-title">Engine Configuration</td>
+                <td class="highlight-cell">6.2L 60° Naturally Aspirated V12</td>
+                <td>6.2L 60° Naturally Aspirated V12</td>
+                <td>6.2L 60° Naturally Aspirated V12</td>
+              </tr>
+              <tr>
+                <td class="param-title">Maximum Power Output</td>
+                <td class="highlight-cell"><strong>890 HP</strong> @ 9,400 RPM</td>
+                <td><strong>905 HP</strong> @ 9,600 RPM</td>
+                <td><strong>890 HP</strong> @ 9,400 RPM</td>
+              </tr>
+              <tr>
+                <td class="param-title">Peak Torque</td>
+                <td class="highlight-cell">780 Nm @ 6,800 RPM</td>
+                <td>810 Nm @ 7,100 RPM</td>
+                <td>780 Nm @ 6,800 RPM</td>
+              </tr>
+              <tr>
+                <td class="param-title">Redline RPM</td>
+                <td class="highlight-cell">9,600 RPM</td>
+                <td>9,600 RPM</td>
+                <td>9,600 RPM</td>
+              </tr>
+              <tr>
+                <td class="param-title">Transmission</td>
+                <td class="highlight-cell">6-Speed Gated Manual (Dog-leg)</td>
+                <td>6-Speed Gated Manual or Xtrac AMT</td>
+                <td>6-Speed Gated Manual</td>
+              </tr>
+              <tr>
+                <td class="param-title">Chassis Construction</td>
+                <td class="highlight-cell">Carbo-Titanium HP62 Monocoque</td>
+                <td>Carbo-Triax HP62 + Beaten Aluminum Tail</td>
+                <td>Carbo-Titanium HP62 + Halo Hoops</td>
+              </tr>
+              <tr>
+                <td class="param-title">Dry Curb Weight</td>
+                <td class="highlight-cell">1,180 kg</td>
+                <td>1,210 kg</td>
+                <td><strong>1,090 kg</strong></td>
+              </tr>
+              <tr>
+                <td class="param-title">Power-to-Weight Ratio</td>
+                <td class="highlight-cell"><strong>1.32 kg/HP</strong></td>
+                <td>1.33 kg/HP</td>
+                <td><strong>1.22 kg/HP</strong></td>
+              </tr>
+              <tr>
+                <td class="param-title">Downforce @ 300 km/h</td>
+                <td class="highlight-cell">820 kg (4 Active Flaps)</td>
+                <td>680 kg (Low Drag Streamline)</td>
+                <td>750 kg (Vented Aero Cowls)</td>
+              </tr>
+              <tr>
+                <td class="param-title">0 - 100 km/h (0 - 62 mph)</td>
+                <td class="highlight-cell">2.8 Seconds</td>
+                <td>2.8 Seconds</td>
+                <td>2.7 Seconds</td>
+              </tr>
+              <tr>
+                <td class="param-title">Exhaust Architecture</td>
+                <td class="highlight-cell">Central Quad Inconel Organ Pipes</td>
+                <td>Extended Dual Titanium Rocket Pipes</td>
+                <td>High-Mount Quad Inconel Stacks</td>
+              </tr>
+              <tr>
+                <td class="param-title">Production Cap</td>
+                <td class="highlight-cell">30 Units Worldwide</td>
+                <td><strong>5 Units Worldwide</strong></td>
+                <td>15 Units Worldwide</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURATED SUNLIT LOOKBOOK & GALLERY -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="sub-label">DAYLIGHT LOOKBOOK</span>
+          <h2 class="section-title">Sculpted In Pure Daylight</h2>
+          <p class="section-subtitle">
+            The Araldi fleet captured in natural Italian sunlight — SP-12 Caelum, Velocità Codalunga, and Solaria Barchetta.
+          </p>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Pure CSS Quick Jump Indicators -->
+        <div class="gallery-nav-pills" role="navigation" aria-label="Lookbook Quick Jump">
+          <a href="#lookbook-caelum" class="gallery-nav-pill">
+            <span class="pill-dot"></span> SP-12 CAELUM
+          </a>
+          <a href="#lookbook-codalunga" class="gallery-nav-pill">
+            <span class="pill-dot"></span> VELOCITÀ CODALUNGA
+          </a>
+          <a href="#lookbook-barchetta" class="gallery-nav-pill">
+            <span class="pill-dot"></span> SOLARIA BARCHETTA
+          </a>
+        </div>
+
+        <!-- Horizontal Side-Wise Scrollable Showcase -->
+        <div class="gallery-horizontal-scroll-container" tabindex="0" role="region" aria-label="Daylight Lookbook Gallery">
+          <!-- Slide 1: SP-12 CAELUM -->
+          <figure class="gallery-item gallery-scroll-card" id="lookbook-caelum">
+            <img 
+              src="assets/caelum-front-white.jpg" 
+              alt="Araldi SP-12 Caelum in Carrara White at Lake Como" 
+              class="gallery-img"
+              onerror="this.src='assets/caelum-hero.svg'"
+            >
+            <figcaption class="gallery-caption">
+              <span class="gallery-badge">FLAGSHIP COUPE · 1 OF 30 WORLD ALLOCATION</span>
+              <h3 class="gallery-car-title">ARALDI SP-12 CAELUM</h3>
+              <p class="gallery-car-location">Carrara White Pearl &amp; Raw Carbo-Titanium · Villa d'Este, Lake Como</p>
+            </figcaption>
+          </figure>
+
+          <!-- Slide 2: VELOCITÀ CODALUNGA -->
+          <figure class="gallery-item gallery-scroll-card" id="lookbook-codalunga">
+            <img 
+              src="assets/codalunga-hypercar.jpg" 
+              alt="Araldi Velocità Codalunga Longtail GT in Cadenabbia, Lake Como" 
+              class="gallery-img"
+              onerror="this.src='assets/codalunga.svg'"
+            >
+            <figcaption class="gallery-caption">
+              <span class="gallery-badge">LONGTAIL GT · 1 OF 5 WORLD ALLOCATION</span>
+              <h3 class="gallery-car-title">ARALDI VELOCITÀ CODALUNGA</h3>
+              <p class="gallery-car-location">Hand-Beaten Aluminum &amp; Low-Drag Aerodinamica · Cadenabbia, Lake Como</p>
+            </figcaption>
+          </figure>
+
+          <!-- Slide 3: SOLARIA BARCHETTA -->
+          <figure class="gallery-item gallery-scroll-card" id="lookbook-barchetta">
+            <img 
+              src="assets/solaria-barchetta.jpg" 
+              alt="Araldi Solaria Barchetta Speedster on Amalfi Coast" 
+              class="gallery-img"
+              onerror="this.src='assets/solaria.svg'"
+            >
+            <figcaption class="gallery-caption">
+              <span class="gallery-badge">OPEN BARCHETTA · 1 OF 15 WORLD ALLOCATION</span>
+              <h3 class="gallery-car-title">ARALDI SOLARIA BARCHETTA</h3>
+              <p class="gallery-car-location">Grade-5 Titanium Halo &amp; Direct Intake Velocity Stacks · Positano, Amalfi Coast</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="gallery-scroll-hint">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          <span>SWIPE OR SCROLL SIDEWAYS TO EXPLORE FLEET</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMISSION ALLOCATION INQUIRY PORTAL -->
+    <section class="inquiry-section" id="inquiry">
+      <div class="container">
+        <div class="inquiry-card-wrapper">
+          <div class="inquiry-header">
+            <img src="assets/crest.svg" alt="Araldi Crest" class="inquiry-crest">
+            <span class="sub-label">PRIVATE COMMISSION ALLOCATION</span>
+            <h2 class="inquiry-title">Petition for Build Slot Allocation</h2>
+            <p class="inquiry-desc">
+              Due to strict craftsmanship limits of 10 chassis per annum, allocation slots are reserved exclusively for private collectors and automotive connoisseurs. Please submit your pedigree details for direct review by the Araldi Allocations Board.
+            </p>
+          </div>
+
+          <form id="allocationForm" class="inquiry-form" action="#dossierModal" method="GET">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientTitle">HONORIFIC / TITLE</label>
+                <select id="clientTitle" name="clientTitle" class="form-control" required>
+                  <option value="Mr.">Mr.</option>
+                  <option value="Mrs.">Mrs.</option>
+                  <option value="Ms.">Ms.</option>
+                  <option value="Dr.">Dr.</option>
+                  <option value="Lord">Lord / Lady</option>
+                  <option value="Esq.">Esq.</option>
+                </select>
+              </div>
+
+              <div class="form-group flex-2">
+                <label for="clientName">FULL LEGAL NAME *</label>
+                <input type="text" id="clientName" name="clientName" class="form-control" placeholder="e.g. Alessandro Moretti" required minlength="2">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientEmail">PRIVATE CONFIDENTIAL EMAIL *</label>
+                <input type="email" id="clientEmail" name="clientEmail" class="form-control" placeholder="moretti@private-office.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientPhone">TELEPHONE (WITH COUNTRY CODE) *</label>
+                <input type="tel" id="clientPhone" name="clientPhone" class="form-control" placeholder="+39 059 123456" required minlength="7">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientCountry">COUNTRY OF REGISTRATION *</label>
+                <input type="text" id="clientCountry" name="clientCountry" class="form-control" placeholder="e.g. Italy, Switzerland, United Kingdom, USA" required>
+              </div>
+
+              <div class="form-group">
+                <label for="modelInterest">CHASSIS / MODEL OF INTEREST *</label>
+                <select id="modelInterest" name="modelInterest" class="form-control" required>
+                  <option value="ARALDI SP-12 Caelum">ARALDI SP-12 Caelum (Coupe · 1 of 30)</option>
+                  <option value="ARALDI Velocità Codalunga">ARALDI Velocità Codalunga (Longtail · 1 of 5)</option>
+                  <option value="ARALDI Solaria Barchetta">ARALDI Solaria Barchetta (Speedster · 1 of 15)</option>
+                  <option value="Uno di Uno (One-Off Bespoke Coachbuild)">Uno di Uno (One-Off Bespoke Coachbuild Commission)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="deliveryWindow">DESIRED BUILD ALLOCATION WINDOW</label>
+                <select id="deliveryWindow" name="deliveryWindow" class="form-control">
+                  <option value="Q3/Q4 2026 Allocation Slot">Q3/Q4 2026 Allocation Slot (2 Remaining)</option>
+                  <option value="2027 Production Slot">2027 Production Slot (Series II)</option>
+                  <option value="2028 Priority Reservation">2028 Priority Reservation</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="consultVenue">PREFERRED CONSULTATION VENUE</label>
+                <select id="consultVenue" name="consultVenue" class="form-control">
+                  <option value="Atelier Modena (Private Factory & Track Experience)">Modena Atelier (Private Factory & Fiorano Track Tour)</option>
+                  <option value="Geneva Private Lounge (Lake Geneva)">Geneva Private Client Lounge</option>
+                  <option value="Private Collector Residence (Design Team Travels)">Private Collector Residence / Estate</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="collectionPedigree">CURRENT MARQUE PEDIGREE & PRIVATE COLLECTION NOTES</label>
+              <textarea id="collectionPedigree" name="collectionPedigree" class="form-control" rows="3" placeholder="Briefly detail your current historic or contemporary hypercars (e.g. Pagani, Bugatti, Koenigsegg, Ferrari Classiche, McLaren F1)..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="bespoke-checkbox-title">BESPOKE ATELIER TAILORING OPTIONS OF INTEREST</label>
+              <div class="bespoke-checkboxes-grid">
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" name="bespokeOption" value="Exposed Tinted Carbo-Titanium Weave">
+                  <span>Exposed Tinted Carbo-Titanium Weave</span>
+                </label>
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" name="bespokeOption" value="Inconel Quad-Organ Exhaust Engraving">
+                  <span>Inconel Quad-Organ Exhaust Custom Engraving</span>
+                </label>
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" name="bespokeOption" value="Bespoke Fitted Saddle Leather Luggage Set">
+                  <span>3-Piece Fitted Bavarian Saddle Leather Luggage</span>
+                </label>
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" name="bespokeOption" value="Custom Swiss Chronometer Dial Calibration">
+                  <span>Custom Swiss Chronometer Dial Calibration</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-submit-row">
+              <button type="submit" class="btn btn-luxury-gold btn-block-submit" id="submitAllocationBtn">
+                <span class="btn-text">TRANSMIT PETITION FOR ALLOCATION</span>
+              </button>
+              <p class="privacy-note">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="#C5A059" style="vertical-align: middle; margin-right: 4px;">
+                  <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                </svg>
+                Strict Swiss-grade cryptographic client confidentiality guaranteed. Your petition is reviewed exclusively by the Founders.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONFIRMATION / ALLOCATION DOSSIER MODAL (PURE CSS :TARGET) -->
+  <div id="dossierModal" class="dossier-modal" role="dialog" aria-labelledby="modalDossierTitle">
+    <div class="modal-card">
+      <a href="#inquiry" class="modal-close-btn" aria-label="Close Allocation Confirmation">✕</a>
+      
+      <div class="dossier-header">
+        <img src="assets/crest.svg" alt="Araldi Crest" class="dossier-crest">
+        <span class="dossier-tag">OFFICINA ARALDI AUTOMOBILI · MODENA</span>
+        <h3 id="modalDossierTitle" class="dossier-title">COMMISSION DOSSIER REGISTERED</h3>
+        <div class="dossier-id-box">
+          <span class="id-lbl">ALLOCATION DOSSIER FILE:</span>
+          <span class="id-val" id="dossierIdDisplay">ARD-MOD-2026-ALLOC-OFFICIAL</span>
+        </div>
+      </div>
+
+      <div class="dossier-body">
+        <p class="dossier-intro">
+          Distinguished Collector & Patron,
+        </p>
+        <p>
+          Your confidential petition for a bespoke build allocation slot has been officially logged with the Private Client Concierge and transmitted directly to the executive atelier of Enzo Araldi in San Cesario sul Panaro.
+        </p>
+
+        <div class="dossier-summary-grid">
+          <div class="dossier-cell">
+            <span class="lbl">ALLOCATION WINDOW:</span>
+            <span class="val">Series II Build Slot Allocation</span>
+          </div>
+          <div class="dossier-cell">
+            <span class="lbl">PRIMARY CONSULTATION:</span>
+            <span class="val">Modena Atelier / Private Lounge</span>
+          </div>
+          <div class="dossier-cell">
+            <span class="lbl">STATUS OF COMMISSION:</span>
+            <span class="val status-pending">PENDING ADVISORY REVIEW</span>
+          </div>
+          <div class="dossier-cell">
+            <span class="lbl">CLIENT DISPATCH PROTOCOL:</span>
+            <span class="val">Priority 24-Hour Confidential Courier</span>
+          </div>
+        </div>
+
+        <div class="dossier-instructions">
+          <h4>NEXT STEPS IN YOUR ALLOCATION JOURNEY:</h4>
+          <ol>
+            <li>Our Chief of Client Concierge will contact your private office via telephone within 24 business hours.</li>
+            <li>A courier dispatch containing the hand-bound <em>Araldi Caelum Material & Weave Portfolio</em> will be delivered to your registered address.</li>
+            <li>Upon preliminary approval, your private consultation slot at the Modena Atelier will be confirmed.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="dossier-footer">
+        <a href="#inquiry" class="btn btn-luxury-outline">DISMISS & RETURN TO ATELIER</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="atelier-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <div class="footer-crest-row">
+            <img src="assets/crest.svg" alt="Araldi Crest" class="footer-crest">
+            <div>
+              <span class="f-brand">ARALDI AUTOMOBILI</span>
+              <span class="f-tagline">SAN CESARIO SUL PANARO · MODENA · ITALIA</span>
+            </div>
+          </div>
+          <p class="f-bio">
+            Bespoke coachbuilders of hypercars on par with Pagani Automobili. Handcrafted composite metallurgy, atmospheric V12 symphonies, and timeless mechanical horology.
+          </p>
+          <div class="f-factory-badge">
+            <span class="badge-dot"></span>
+            <span>MANIFATTURA ARTIGIANALE MODENESE</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="f-title">THE FLEET</h4>
+          <ul class="f-links">
+            <li><a href="#hero">ARALDI SP-12 Caelum</a></li>
+            <li><a href="#fleet">Velocità Codalunga</a></li>
+            <li><a href="#fleet">Solaria Barchetta</a></li>
+            <li><a href="#inquiry">Uno di Uno Special Projects</a></li>
+            <li><a href="#telemetry">Comparative Telemetry</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="f-title">ATELIER & CRAFT</h4>
+          <ul class="f-links">
+            <li><a href="#manifesto">Arte e Scienza Manifesto</a></li>
+            <li><a href="#manifesto">1,400+ Titanium Fasteners</a></li>
+            <li><a href="#manifesto">Carbo-Titanium Composite</a></li>
+            <li><a href="#manifesto">Swiss Horological Craft</a></li>
+            <li><a href="#gallery">Daylight Lookbook</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="f-title">CONTACT & ATELIER</h4>
+          <address class="f-address">
+            <strong>Officina Araldi Automobili</strong><br>
+            Via dell'Artigianato, 14<br>
+            41018 San Cesario sul Panaro (MO)<br>
+            Emilia-Romagna, Italia<br><br>
+            <strong>Private Concierge:</strong><br>
+            <a href="mailto:concierge@araldi-automobili.it">concierge@araldi-automobili.it</a><br>
+            <span>Tel: +39 059 863 9100</span>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="f-legal">
+          © 2026 Araldi Automobili S.p.A. All Rights Reserved. Handcrafted in Modena, Italy.
+        </div>
+        <div class="f-sub-links">
+          <a href="#hero">Privacy & Cryptographic Discretion</a>
+          <span>·</span>
+          <a href="#hero">Historic Vehicle Registry</a>
+          <span>·</span>
+          <a href="#hero">Atelier Heritage Archive</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

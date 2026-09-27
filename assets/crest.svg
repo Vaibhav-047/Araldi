@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="crestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DFBE7A"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9A7736"/>
+    </linearGradient>
+    <linearGradient id="crestTitanium" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F4F5F8"/>
+      <stop offset="100%" stop-color="#A5ACB8"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield -->
+  <polygon points="100,15 175,45 175,115 100,185 25,115 25,45" fill="none" stroke="url(#crestGold)" stroke-width="3"/>
+  <polygon points="100,24 167,51 167,111 100,174 33,111 33,51" fill="#FFFFFF" stroke="url(#crestTitanium)" stroke-width="1.5"/>
+  
+  <!-- Stylized Winged A -->
+  <path d="M100 48 L126 122 L112 122 L106 104 L94 104 L88 122 L74 122 Z M100 70 L96 92 L104 92 Z" fill="url(#crestGold)"/>
+  
+  <!-- Aero winglets -->
+  <path d="M48 65 Q 75 55 95 62 L 95 68 Q 72 63 48 73 Z" fill="url(#crestGold)" opacity="0.8"/>
+  <path d="M152 65 Q 125 55 105 62 L 105 68 Q 128 63 152 73 Z" fill="url(#crestGold)" opacity="0.8"/>
+  
+  <!-- Italian Tricolore Accent -->
+  <rect x="88" y="136" width="7" height="3" fill="#009246"/>
+  <rect x="96" y="136" width="8" height="3" fill="#F4F5F8"/>
+  <rect x="105" y="136" width="7" height="3" fill="#CE2B37"/>
+  
+  <!-- Subtext -->
+  <text x="100" y="156" font-family="'Cinzel', Georgia, serif" font-size="9" fill="#121316" font-weight="700" text-anchor="middle" letter-spacing="3">MODENA</text>
+</svg>

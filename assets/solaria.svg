@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pearlWhite" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F2F4F7"/>
+      <stop offset="70%" stop-color="#DFE3EA"/>
+      <stop offset="100%" stop-color="#B8BFCC"/>
+    </linearGradient>
+    <linearGradient id="titaniumHoop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F4F5F8"/>
+      <stop offset="50%" stop-color="#9FA6B3"/>
+      <stop offset="100%" stop-color="#4B5260"/>
+    </linearGradient>
+    <linearGradient id="goldHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EAD196"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9E7835"/>
+    </linearGradient>
+    <linearGradient id="ambientStudio" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="70%" stop-color="#F2EFE9"/>
+      <stop offset="100%" stop-color="#E5E0D5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#ambientStudio)"/>
+  <line x1="50" y1="460" x2="1150" y2="460" stroke="#D5D0C6" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <ellipse cx="600" cy="465" rx="520" ry="25" fill="#000000" opacity="0.14" filter="blur(15px)"/>
+
+  <!-- Barchetta Open Cockpit Body -->
+  <g>
+    <!-- Aerodynamic Underbody -->
+    <path d="M 180 440 L 260 446 L 930 446 L 1030 430 L 1000 420 L 920 432 L 230 432 Z" fill="#15171C"/>
+
+    <!-- Barchetta Sculptural Body -->
+    <path d="M 170 420 
+             C 180 385, 230 365, 310 355
+             C 410 345, 470 330, 560 310
+             C 610 310, 680 320, 740 330
+             C 820 335, 930 365, 1030 385
+             C 1060 395, 1050 415, 1020 428
+             C 980 438, 930 440, 880 440
+             C 850 410, 790 410, 760 440
+             L 410 440
+             C 380 410, 320 410, 290 440
+             L 170 440 Z" 
+          fill="url(#pearlWhite)"/>
+
+    <!-- Open Cockpit Cutout -->
+    <path d="M 530 315 C 570 310, 640 310, 690 325 L 690 350 L 530 350 Z" fill="#1C1E24"/>
+
+    <!-- Twin Streamlined Headrest Cowls & Titanium Roll Hoops -->
+    <path d="M 680 330 C 720 280, 760 280, 800 340 Z" fill="url(#pearlWhite)" stroke="#CBD1DB" stroke-width="1.5"/>
+    <path d="M 700 325 C 725 270, 755 270, 775 330" fill="none" stroke="url(#titaniumHoop)" stroke-width="5"/>
+
+    <!-- Minimalist Aero Wind Deflector (No Windshield) -->
+    <path d="M 500 325 Q 525 305 550 310" stroke="url(#goldHighlight)" stroke-width="3" fill="none"/>
+
+    <!-- Wheels -->
+    <g transform="translate(350, 440)">
+      <circle cx="0" cy="0" r="65" fill="#14171D"/>
+      <circle cx="0" cy="0" r="54" fill="#E2DDD4"/>
+      <circle cx="0" cy="0" r="44" fill="#1C1F26"/>
+      <circle cx="0" cy="0" r="14" fill="#C5A059"/>
+      <line x1="0" y1="-44" x2="0" y2="44" stroke="#8E97A6" stroke-width="3"/>
+      <line x1="-44" y1="0" x2="44" y2="0" stroke="#8E97A6" stroke-width="3"/>
+      <line x1="-31" y1="-31" x2="31" y2="31" stroke="#8E97A6" stroke-width="3"/>
+      <line x1="31" y1="-31" x2="-31" y2="31" stroke="#8E97A6" stroke-width="3"/>
+    </g>
+
+    <g transform="translate(820, 440)">
+      <circle cx="0" cy="0" r="67" fill="#14171D"/>
+      <circle cx="0" cy="0" r="56" fill="#E2DDD4"/>
+      <circle cx="0" cy="0" r="46" fill="#1C1F26"/>
+      <circle cx="0" cy="0" r="15" fill="#C5A059"/>
+      <line x1="0" y1="-46" x2="0" y2="46" stroke="#8E97A6" stroke-width="3"/>
+      <line x1="-46" y1="0" x2="46" y2="0" stroke="#8E97A6" stroke-width="3"/>
+      <line x1="-32" y1="-32" x2="32" y2="32" stroke="#8E97A6" stroke-width="3"/>
+      <line x1="32" y1="-32" x2="-32" y2="32" stroke="#8E97A6" stroke-width="3"/>
+    </g>
+  </g>
+
+  <text x="70" y="90" font-family="'Cinzel', Georgia, serif" font-size="28" fill="#121316" font-weight="700" letter-spacing="4">ARALDI SOLARIA BARCHETTA</text>
+  <text x="70" y="120" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#585D6A" letter-spacing="3">VISCERAL OPEN-COCKPIT · 1,090 KG DRY MASS · TITANIUM HALO HOOPS · MODENA</text>
+  <line x1="70" y1="135" x2="550" y2="135" stroke="#C5A059" stroke-width="2"/>
+</svg>
